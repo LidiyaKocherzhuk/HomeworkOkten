@@ -1,0 +1,37 @@
+.blocks{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+}
+.mg{
+     margin: 5px;
+ }
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.fg{
+    flex-grow: 1;
+}
+#blocks__header, #blocks__footer{
+    height: 100px;
+    background: silver;
+}
+#blocks__menu{
+    height: 500px;
+    display: flex;
+}
+.menu__left{
+    background: #ca9f9f;
+}
+.menu__right{
+    height: 100%;
+    flex-grow: 2;
+}
+.menu__post{
+    height:48.5%;
+    background: aqua;
+    margin: 5px;
+}

@@ -1,0 +1,11 @@
+.menu_left{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.item{
+    background: #e7e5ea;
+    width: 31.8%;
+    height: 140px;
+}

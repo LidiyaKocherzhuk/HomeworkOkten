@@ -1,0 +1,31 @@
+.blocks{
+    width: 30%;
+    margin: auto;
+    border: 1px solid black;
+}
+.mg{
+    margin: 5px;
+}
+.bg{
+    background: silver;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w1{
+    flex-grow: 1;
+}
+.h200{
+   height: 200px;
+}
+.block__header{
+    height: 50px;
+}
+.block__menu{
+    display: flex;
+}
+.block__menu_left{
+    flex-grow: 3;
+}

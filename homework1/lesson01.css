@@ -1,0 +1,37 @@
+body{
+    padding: 10px 200px 50px 200px;
+    background: #ffe0e0;
+    justify-content: center;
+}
+h1,h2{
+    display: flex;
+    justify-content: center;
+    color: #2a0303;
+}
+p, .cont{
+    font-size: 18px;
+}
+.content{
+    border-left: 1px solid black;
+    padding: 5px;
+    position: fixed;
+    background: scroll;
+    left: 1px;
+}
+.contBack{
+    background: #ca9f9f;
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: #573333;
+}
+.image{
+   text-align: center;
+}
+img{
+    border-radius: 10px;
+}

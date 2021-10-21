@@ -1,0 +1,37 @@
+.blocks{
+    width: 50%;
+    margin:auto ;
+}
+.fg1{
+    flex-grow: 1;
+}
+.h200{
+    height: 200px;
+}
+.mg5{
+    margin: 5px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.br5{
+    border-radius: 5px;
+}
+.block__widgets, .block__contact{
+    background: #0015a8;
+    font-size: 25px;
+}
+.block__menu{
+    display: flex;
+}
+.menu__image{
+    flex-grow: 1;
+    background: #1b30c5;
+    font-size: 20px;
+}
+.block__contact{
+    height: 500px;
+}

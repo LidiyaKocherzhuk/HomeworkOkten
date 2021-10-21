@@ -1,0 +1,44 @@
+.title {
+    width: 70%;
+}
+.round{
+    border-radius: 20px;
+}
+a{
+    color: white;
+    font-size: 20px;
+}
+.box{
+    width: 100%;
+    height: 50px;
+}
+h1{
+    color:#0c1f4d;
+    margin: 0;
+    text-align: center;
+}
+.center{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    width: 70%;
+    background: #f6f6f6;
+    height: 100%;
+}
+img{
+    width: 100%;
+}
+.b{
+    width: 28%;
+    background:#6c73b6;
+    height: 100%;
+}
+#footer, #header {
+    background-image: url("https://konkurent.ua/media/uploads/prev/2020/08/14/11/15/15/03cad7cada519b2427a7e0ac885e3992.png");
+}
+#footer{
+    margin-top: 20px;
+}

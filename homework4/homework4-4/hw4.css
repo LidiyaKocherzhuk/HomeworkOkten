@@ -1,0 +1,38 @@
+.blocks{
+    width: 50%;
+    margin:auto ;
+}
+.fg1{
+    flex-grow: 1;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.block__header{
+    background: #1b30c5;
+}
+.block__header, .block__footer{
+    height: 60px;
+}
+.block__menu_nav{
+    height: 50px;
+    background: #082c7a;
+}
+.block__menu_box{
+    display: flex;
+    height: 350px;
+}
+.menu__box_left{
+    flex-grow: 3;
+    background: #009aff;
+}
+.menu__box_right{
+    background: rebeccapurple;
+}
+.block__footer{
+    background: #93c093;
+}

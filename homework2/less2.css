@@ -1,0 +1,40 @@
+body{
+    padding: 5px 150px 50px;
+    background: #fae1e1;
+    justify-content: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #3d0909;
+    border: 1px solid #b0afaf;
+}
+.content{
+    border-left: 2px solid black ;
+    border-radius: 10px;
+    position: fixed;
+    background: scroll;
+    left: 2px;
+    padding: 5px;
+}
+.contBack{
+    background: #d3a7a7;
+    color: black;
+}
+.cont, p{
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #9f0808;
+}
+h2{
+    color: #3d0909;
+}
+img{
+    margin-left: 20px;
+    border-radius: 20px;
+}

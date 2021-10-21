@@ -1,0 +1,35 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+}
+.title{
+    margin: auto;
+    width: 70%;
+}
+.widgets{
+    background: #cbc5ff;
+    height: 300px;
+}
+.image{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+img{
+    border-radius: 5px;
+    width: 32%;
+}
+.contact{
+    height: 400px;
+    background:#27395b;
+}
+p{
+    font-size: 50px;
+}
+.contact>p{
+    color: white;
+}
