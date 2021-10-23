@@ -1,0 +1,11 @@
+.w100{
+    width: 100%;
+}
+.h200{
+    height: 200px;
+}
+.d_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
