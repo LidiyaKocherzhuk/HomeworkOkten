@@ -1,0 +1,30 @@
+@media screen and (max-width: 1100px) {
+ .blocks{
+     width: 100%;
+ }
+ .top__header_items{
+     width: 40%;
+ }
+    .box__top,.box__bottom_menu{
+        margin: 10px 20px 20px;
+    }
+    .box__top_items,.box__bottom_menu{
+        flex-wrap: wrap;
+    }
+    .top__item{
+        width: 33%;
+    }
+
+}
+@media screen and (min-width: 700px) and (max-width: 1150px){
+.top__item{
+    height: 350px;
+    margin-top: 20px;
+
+}
+.top__item>.div_height{
+    height: 10px;
+    margin-top: 20px;
+}
+
+}
