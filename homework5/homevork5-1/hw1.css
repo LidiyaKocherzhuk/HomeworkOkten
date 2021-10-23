@@ -272,3 +272,18 @@
 
 
 /*media*/
+.news__button{
+    display: none;
+    width: 80%;
+    margin: 10px 10%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--blue);
+    justify-content: center;
+    align-items: center;
+}
+.news__button>p{
+    display: none;
+    background-color: unset;
+    border-radius: unset;
+}

@@ -1,4 +1,4 @@
-@media screen and (max-width: 451px){
+@media screen and (max-width: 481px){
 .blocks{
     width: 100%;
 }
@@ -31,23 +31,15 @@
     width: 40%;
 }
 .photo{
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px 0 0;
 }
-.photo__items{
-    margin: 10px;
-}
 .menu__news-items{
-    width: 90%;
+    display: none;
 }
-.menu__news-items p{
-    margin: 20px;
+.news__button{
+    display: flex;
 }
-.news__item_two_right div{
-    width: 15%;
-    height: 10px;
-}
-
 .menu__bottom{
     flex-wrap: wrap;
 }
