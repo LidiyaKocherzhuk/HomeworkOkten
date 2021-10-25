@@ -13,6 +13,7 @@
     box-sizing: border-box;
     padding: 0;
     border: 0;
+    margin: 0;
 }
 
 .d_center{
@@ -33,9 +34,13 @@
 .header{
     background-color: var(--blue);
     padding: 50px;
-    color: #070750;
+    color: #682aec;
+}
+.header__description{
+    width: 20%;
 }
 .header__item{
+    margin-top: 20px;
     background-color: var(--purple);
     width: 10%;
     height: 30px;
@@ -54,7 +59,7 @@
 }
 .menu__left_items>div{
     background-color: var(--purple);
-    width: 80%;
+    width: 100%;
     height: 300px;
     border-radius: 20px;
     margin: 40px 0;
@@ -93,6 +98,7 @@
     width: 60%;
 }
 .item__a{
+    margin-top: 40px;
     font-size: 20px;
     display: flex;
     justify-content: space-between;
@@ -100,23 +106,85 @@
 
 
 .photo{
-    padding: 50px;
+   color:#070750;
 }
 .photo__items{
+    margin-top: 50px;
     flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.photo__item_purple{
+    width: 60%;
+    background-color: var(--purple);
+    height: 450px;
+}
+.photo__item_blue{
+   width: 30%;
+    background-color: var(--blue);
+    height: 450px;
 }
 
 
+.founder{
+    padding: 50px;
+    color:#070750;
+}
+.founder__items{
+    margin: 50px 0;
+    justify-content: space-around;
+}
+.founder__item{
+    width: 20%;
+
+}
+.founder__item>div{
+    width: 200px;
+    height: 200px;
+    background-color: var(--purple);
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
 
 
+.footer{
+    background-color: var(--blue);
+    padding: 50px;
+}
+.footer__left{
+    width: 40%;
+}
+.footer__left_items-top, .footer__left_items-bottom{
+    column-gap: 20px;
+    padding: 10px;
+    justify-content: left;
+}
+.footer__left_items-top>div{
+    background-color: var(--purple);
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.footer__left_items-bottom>div{
+    background-color: var(--purple);
+    width: 60px;
+    height: 10px;
+    border-radius: 10px;
+}
 
-
-
-
-
-
-
-
-
+.footer__right{
+    right: 0;
+    width: 60%;
+    justify-content: space-between;
+    color: #682aec;
+}
+.footer__right_item{
+    width: 20%;
+}
+.footer__right_item>h3{
+    margin-bottom: 20px;
+}
 
 
