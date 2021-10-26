@@ -28,10 +28,11 @@
         width: 100%;
         padding: 0;
         bottom: -700px;
+        align-items: center;
+        row-gap: 20px;
     }
     .header__bottom_item{
         width: 80%;
-
     }
 
     }
