@@ -1,0 +1,52 @@
+@media screen and (max-width: 375px){
+    .header{
+        padding: 10px;
+    }
+    .header__top_right{
+        display: none;
+    }
+    .header__top_media_button{
+        display: flex;
+    }
+
+    .header__center{
+        width: 100%;
+    }
+    .header__center h2{
+        font-size: 190%;
+    }
+    .header__center h1{
+        font-size: 320%;
+    }
+    .header__center>div{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .header__bottom{
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        bottom: -700px;
+    }
+    .header__bottom_item{
+        width: 80%;
+
+    }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
