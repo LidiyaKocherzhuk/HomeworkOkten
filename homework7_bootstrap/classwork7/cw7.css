@@ -1,0 +1,90 @@
+.ui-autocomplete {
+    z-index:2147483647;
+}
+.title {
+    max-width: 1200px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    margin-bottom: 50px;
+}
+#navbarDropdownMenuLinkOne{
+    border: 2px solid silver;
+    border-radius: 5px;
+    color: blue;
+}
+.nav-link{
+    margin-right: 20px;
+}
+.navbar{
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.description__top_text{
+    padding: 50px;
+}
+.description__top_text>h1{
+    margin: 20px 20px 100px;
+}
+.line{
+    width: 230px;
+    height: 3px;
+    background: #EDEFF3;
+    border-top: 3px solid #EDEFF3;
+    border-bottom: 3px solid #EDEFF3;
+}
+.m_top{
+     margin-top: 55px;
+ }
+.m_bottom{
+    margin-bottom: 55px;
+}
+.line:hover{
+    background: #4093ff;
+}
+.description__top_image{
+    height: 80vh;
+    background: url("img/Air Colled Chillers Small - MRS Transparent3_3 2.png") no-repeat center/cover;
+}
+.description__bottom_image{
+    background: url("img/Multistage MSW-MSA - Refrigeration Systems 1.png") no-repeat center/cover;
+    height: 60vh;
+}
+.description__bottom_text{
+    padding: 50px;
+}
+
+.content{
+    z-index: 1;
+}
+.content__text{
+    padding: 100px;
+}
+
+.preview{
+    position: relative;
+    margin: 100px 0 ;
+}
+.preview__image{
+    right: 0;
+    top: -150px;
+    position: absolute;
+}
+.preview__text{
+    padding: 20px 0 0 50px;
+    z-index: 1;
+}
+
+.menu{
+    background: #FBFBFC;
+}
+
+
+
