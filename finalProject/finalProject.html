@@ -24,8 +24,8 @@
             <div class="header__nav_left d-flex align-items-center justify-content-around justify-content-xl-start col-12  col-xl-4">
                 <div class="d-flex justify-content-between align-items-center">
                     <p class="fs14 fs_m12 text-white m_bot0">
-                    <img src="img/placeholder%201.png" alt="placeholder">
-                    Ваш город:</p>
+                        <img src="img/placeholder%201.png" alt="placeholder">
+                        Ваш город:</p>
                     <div class="form-floating">
                         <select class="form-select fs_m12" id="floatingSelect"
                                 aria-label="Floating label select example">
@@ -119,7 +119,8 @@
         </div>
 
         <div class="header__contacts d-flex align-items-center justify-content-between col-12 col-xl-9">
-            <div class="header__contacts_one d-flex col-xl-2">
+
+            <div class="header__contacts_one d-flex align-items-center col-xl-2">
                 <img src="img/Mask%20Group%20(1).png" alt="Mask">
                 <div>
                     <p class="fs24 fs_m14"><strong>AVT-ZAP</strong> <br>
@@ -135,25 +136,62 @@
                         Мы работаем: будни - 9:00-21:00 <br>
                         сб. - 10:00-15:00</p>
                 </div>
-                <div class="header__contacts_three d-none d-md-flex">
+                <div class="header__contacts_three d-none d-md-flex align-items-center">
                     <img src="img/placeholder%201black.png" alt="placeholder">
-                    <p class="fs14 fw-bold">Невский пр-т, д. 45</p>
+                    <p class="fs14 fw-bold m_bot0">Невский пр-т, д. 45</p>
                 </div>
             </div>
-            
+
             <div class="header__contacts_five d-flex flex-column flex-xl-row-reverse align-items-center justify-content-around col-xl-5">
-                <p class="fs20 fs_m14 fw-bold text-end">+7 383 291 92 86 <br>
-                    <a class="fs12 fs_m10 fw-bold text-secondary text-end" href="#">форма обратной
-                        связи</a></p>
+                <div class=""><p class="fs20 fs_m14 fw-bold text-end m_bot0">+7 383 291 92 86</p>
+                    <br>
+                    <div class="dropdown l-height">
+                        <a class="btn dropdown-toggle fs_m10 fs_md-12 m_bot0" href="#" role="button"
+                           id="dropdownMenuLink"
+                           data-bs-toggle="dropdown" aria-expanded="false">
+                            <u>форма обратной связи</u>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item d-flex flex-column align-items-center"
+                                   href="">
+                                <div class="d-flex justify-content-between col-12">
+                                    <h4>Заказать звонок</h4>
+                                    <button type="button" class="btn-close"
+                                            aria-label="Close"></button>
+                                </div>
+                                <div class="row g-3 flex-column col-12">
+                                    <div class="col border-secondary rounded border">
+                                        <input type="text" class="form-control"
+                                               placeholder="Ваше имя" aria-label="Ваше имя">
+                                    </div>
+                                    <div class="col-12 d-flex align-items-center border-secondary rounded border">
+                                        <img class="co-1" src="img/image%2016.png" alt="image">
+                                        <img class="co-1" src="img/Vector%2020.png" alt="Vector">
+                                        <div class="vr"></div>
+                                        <input type="text" class="form-control col"
+                                               placeholder="Номер телефона"
+                                               aria-label="Номер телефона">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary col m-2">Заказать
+                                    звонок
+                                </button>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
                 <div class="header__contacts_four d-flex align-items-center">
                     <img src="img/whatsapp%20(2)%201.png" alt="whatsapp">
                     <p class="fs_m10 fs_md-12 m_bot0 fw-bold">Напишите нам в WhatsApp</p>
+
                 </div>
             </div>
         </div>
 
         <div class="header__katalog d-flex justify-content-between align-items-center col-12 col-xl-9">
-            <div class="header__katalog_button d-flex align-items-center justify-content-center col-1 ">
+
+            <div class="header__katalog_button fs20 d-flex align-items-center justify-content-center col-1 ">
                 <div class="d-flex flex-column">
                     <span></span>
                     <span></span>
@@ -162,6 +200,7 @@
                 <a class="text-decoration-none text-white d-none d-xl-block"
                    href="#">Каталог</a>
             </div>
+
             <div class="header__katalog_search  col-11 col-md-6">
                 <nav class="navbar navbar-light ">
                     <div class="container-fluid">
@@ -177,6 +216,7 @@
                     </div>
                 </nav>
             </div>
+
             <div class="d-none d-md-flex justify-content-end col-4 ">
                 <div class="header__katalog_item d-flex flex-md-column align-items-center flex-xl-row">
                     <img src="img/user%20(1)%201.png" alt="user">
@@ -199,6 +239,7 @@
     <div class="content d-flex flex-column col-12 col-xl-9">
 
         <div class="content__slides d-flex flex-column flex-md-row c-gap15 justify-content-between col-12">
+
             <div id="carouselExampleIndicators" class="carousel slide col-9 d-none d-xl-block"
                  data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -214,8 +255,8 @@
                     <div class="carousel-item active">
                         <img src="img/slide.png" class="d-block w-100" alt="slide">
 
-                        <div class="carousel-item_content d-flex col-10 justify-content-around">
-                            <div class="d-md-flex flex-column justify-content-center">
+                        <div class="carousel-item_content d-flex col-10 justify-content-around align-items-center">
+                            <div class="d-md-flex flex-column r-gap20 justify-content-center">
                                 <div>
                                     <p class="fs36">Сцепление в сборе</p>
                                     <p class="text-secondary"><u class="fs24">0AMCLUTCH</u></p>
@@ -280,8 +321,8 @@
                                  alt="zap_main_page_v01">
                         </div>
                     </div>
-
                 </div>
+
                 <button class="carousel-control-prev d-none d-md-block" type="button"
                         data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -354,6 +395,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="content__item absolute">
                     <p class="fs14 fs_m12 fs_md-12 m_bot0"><strong>Акция</strong></p>
                     <div class="d-flex align-items-start c-gap15">
@@ -393,6 +435,7 @@
                 </div>
                 <img src="img/avt-zap_main_page_v01%20(1)йцу%201.png" alt="zap_main_page_v01">
             </div>
+
             <div class="menu__slide absolute d-flex justify-content-between align-items-center">
                 <div class="menu__slide_description fs_md-12">
                     <h3>Фильтры</h3>
@@ -402,6 +445,7 @@
                 </div>
                 <img src="img/avt-zap_main_page_v01%20(1)йцу%202.png" alt="zap_main_page_v01">
             </div>
+
             <div class="menu__slide d-none absolute-md d-md-flex justify-content-between align-items-center">
                 <div class="menu__slide_description fs_md-12">
                     <h3>Радиаторы</h3>
@@ -411,7 +455,6 @@
                 </div>
                 <img src="img/avt-zap_main_page_v01%20(1)йцу%204.png" alt="zap_main_page_v01">
             </div>
-
         </div>
 
         <div class="menu__nav d-flex col-12 col-xl-6 ">
@@ -781,7 +824,6 @@
                              alt="kisspng-mastercard-money">
                     </div>
                 </div>
-
             </div>
             <div class=" footer__contacts col-12 col-xl-5">
                 <div class="d-flex flex-column flex-md-row justify-content-md-start justify-content-xl-between col-12">
@@ -826,6 +868,7 @@
                 </div>
             </div>
         </div>
+
         <div class="footer__absolute d-none d-xl-block col-9">
             <p class="text_color fs_m10">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
         </div>
