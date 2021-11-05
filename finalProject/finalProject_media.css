@@ -68,6 +68,7 @@
     }
 
     .content__items{
+        overflow-x: hidden;
         position: relative;
     }
     .content__item{
@@ -83,15 +84,16 @@
     }
 
     .menu__slides{
+        overflow-x: hidden;
         margin: 0 0 20px;
     }
     .absolute{
         position: absolute;
-        left: 265px;
+        left: 255px;
     }
     .menu__slide{
         width: 240px;
-        height: 126px;
+        height: auto;
     }
     .menu__slide_description {
         padding: 15px;
@@ -102,6 +104,7 @@
     }
 
     .menu__nav{
+        overflow-x: hidden;
         position: relative;
     }
     .b_absolute{

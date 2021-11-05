@@ -81,6 +81,8 @@
     margin: 0!important;
 }
 .form-select{
+    width: 200%;
+    margin-left: 5px;
     background: none;
     color: white;
     border: none;
@@ -88,7 +90,11 @@
     font-size: 14px;
     height: calc(1.5rem + 2px) !important;
 }
+.form-select:focus {
+    box-shadow: none!important;
+}
 .form-select option{
+    background: none!important;
     color: black;
 }
 .header__nav_left button{
@@ -204,6 +210,9 @@
     position: absolute;
     left: 110px;
     bottom: 20px;
+}
+.carousel-item_content>img{
+    width: 50%;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
