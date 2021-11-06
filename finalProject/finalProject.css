@@ -95,7 +95,7 @@
     border-top: none!important;
 }
 .header__nav_left button{
-    font-size: 14px!important;
+    font-size: 14px;
 }
 .btn-secondary{
     background: none!important;

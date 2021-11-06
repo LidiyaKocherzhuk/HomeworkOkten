@@ -25,7 +25,10 @@
         row-gap: unset;
     }
 
-
+    .modal-menu{
+        width: 300%;
+        padding: 10px;
+    }
     .header__contacts,
     .header__katalog{
         padding: 0 15px ;
