@@ -26,17 +26,27 @@
                     <p class="fs14 fs_m12 text-white m_bot0">
                         <img src="img/placeholder%201.png" alt="placeholder">
                         Ваш город:</p>
-                    <div class="form-floating">
-                        <select class="form-select fs_m12" id="floatingSelect"
-                                aria-label="Floating label select example">
-                            <option selected>Москва</option>
-                            <option class="text-black" value="2">Санкт-Петербург</option>
-                            <option class="text-black" value="3">Краснодар</option>
-                            <option class="text-black" value="4">Екатеринбург</option>
-                            <option class="text-black" value="5">Ростов-на-Дону</option>
-                            <option class="text-black" value="6">Самара</option>
-                        </select>
-                        <label class="fs14 text-white" for="floatingSelect"></label>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle text-white" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            Москва
+                        </button>
+                        <ul class="dropdown-menu modal-menu col-3" aria-labelledby="dropdownMenuButton1">
+                            <li class="d-flex justify-content-between">
+                                <h5>Выберите свой город</h5>
+                                <button type="button" class="btn-close"
+                                        aria-label="Close"></button>
+                            </li>
+                            <li>
+                                <select class="form-select  text-black" aria-label="Default select">
+                                    <option selected>Ваш город</option>
+                                    <option class="text-black" value="2">Санкт-Петербург</option>
+                                    <option class="text-black" value="3">Краснодар</option>
+                                    <option class="text-black" value="4">Екатеринбург</option>
+                                    <option class="text-black" value="5">Ростов-на-Дону</option>
+                                    <option class="text-black" value="6">Самара</option>
+                                </select>
+                            </li>
+                        </ul>
                     </div>
 
                     <div class="dropdown ">
@@ -208,7 +218,21 @@
                             <input class="form-control fs_m12 text-truncate" type="search"
                                    placeholder="Поиск по наименованию или артикулу"
                                    aria-label="Search">
-                            <button class="btn d-md-block d-none" type="submit">Найти</button>
+                            <div class="btn-group dropdown">
+                                <button type="button" class="btn d-md-block d-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Найти
+                                </button>
+                                <ul class="dropdown-menu modal-menu-search">
+                                    <li><p class="opacity-50">Найденные трансмиссии:</p></li>
+                                    <li class="bg-light"><a href="#">6eT40</a></li>
+                                    <li><a href="#">6eT40</a></li>
+                                    <li><a href="#">6eT40</a></li>
+                                    <li><p class="opacity-50 p-2">Найденные товары:</p></li>
+                                    <li><a href="#">Насос - Артикул / 43233</a></li>
+                                    <li><a href="#">Соленоид - Артикул / 4493934-22</a></li>
+                                </ul>
+                            </div>
+
                             <button class="button d-block d-md-none" type="submit">
                                 <i class="fas fa-search"></i>
                             </button>
@@ -266,10 +290,22 @@
                                     <p class="text-secondary fs24 p-3 opacity-25"><s>18 550,99
                                         ₽ </s></p>
                                 </div>
-                                <button class="button b_size">
-                                    <img class="img_shop" src="img/Group%20white.png" alt="Group">
-                                    В корзину
-                                </button>
+                                    <div class="btn-group dropup">
+                                        <button type="button" class="dropdown-toggle button b_size" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img class="img_shop" src="img/Group%20white.png" alt="Group">
+                                            В корзину
+                                        </button>
+                                        <ul class="dropdown-menu modal-menu-button">
+                                            <li>
+                                                <div class="d-flex justify-content-between">
+                                                    <img src="img/avt-zap_main_page_v01%20(1)йцу%207.png" alt="avt">
+                                                    <div><h5>Товар добавлен в корзину</h5>
+                                                        <p>Intermediate accumelator sleeve</p></div>
+                                                    <button type="button" class="btn-close" aria-label="Close"></button>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
                             </div>
                             <img src="img/avt-zap_main_page_v01%20(1)%201.png"
                                  alt="zap_main_page_v01">
@@ -289,10 +325,22 @@
                                     <p class="text-secondary fs24 p-3 opacity-25"><s>18 550,99
                                         ₽ </s></p>
                                 </div>
-                                <button class="button b_size">
-                                    <img class="img_shop" src="img/Group%20white.png" alt="Group">
-                                    В корзину
-                                </button>
+                                <div class="btn-group dropup">
+                                    <button type="button" class="dropdown-toggle button b_size" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img_shop" src="img/Group%20white.png" alt="Group">
+                                        В корзину
+                                    </button>
+                                    <ul class="dropdown-menu modal-menu-button">
+                                        <li>
+                                            <div class="d-flex justify-content-between">
+                                                <img src="img/avt-zap_main_page_v01%20(1)йцу%207.png" alt="avt">
+                                                <div><h5>Товар добавлен в корзину</h5>
+                                                    <p>Intermediate accumelator sleeve</p></div>
+                                                <button type="button" class="btn-close" aria-label="Close"></button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <img src="img/avt-zap_main_page_v01%20(1)йцу%2013.png"
                                  alt="zap_main_page_v01">
@@ -312,10 +360,22 @@
                                     <p class="text-secondary fs24 p-3 opacity-25"><s>18 550,99
                                         ₽ </s></p>
                                 </div>
-                                <button class="button b_size">
-                                    <img class="img_shop" src="img/Group%20white.png" alt="Group">
-                                    В корзину
-                                </button>
+                                <div class="btn-group dropup">
+                                    <button type="button" class="dropdown-toggle button b_size" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img class="img_shop" src="img/Group%20white.png" alt="Group">
+                                        В корзину
+                                    </button>
+                                    <ul class="dropdown-menu modal-menu-button">
+                                        <li>
+                                            <div class="d-flex justify-content-between">
+                                                <img src="img/avt-zap_main_page_v01%20(1)йцу%207.png" alt="avt">
+                                                <div><h5>Товар добавлен в корзину</h5>
+                                                    <p>Intermediate accumelator sleeve</p></div>
+                                                <button type="button" class="btn-close" aria-label="Close"></button>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
                             <img src="img/avt-zap_main_page_v01%20(1)йцу%201558.png"
                                  alt="zap_main_page_v01">

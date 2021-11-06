@@ -80,22 +80,19 @@
 .header__nav_left>p{
     margin: 0!important;
 }
-.form-select{
-    width: 200%;
-    margin-left: 5px;
-    background: none;
-    color: white;
-    border: none;
-    padding: 0!important;
-    font-size: 14px;
-    height: calc(1.5rem + 2px) !important;
-}
-.form-select:focus {
+.dropdown-menu select{
+    border: none!important;
+    background: #f1f1f1;
+    margin-top: 20px;
     box-shadow: none!important;
 }
-.form-select option{
-    background: none!important;
-    color: black;
+.modal-menu{
+    width: 500%;
+    padding: 20px 50px 50px;
+}
+.dropdown-toggle::after{
+    border-bottom: none!important;
+    border-top: none!important;
 }
 .header__nav_left button{
     font-size: 14px!important;
@@ -139,8 +136,6 @@
 .header__contacts_five .dropdown-menu{
     width: 200%;
 }
-.header__contacts_five .dropdown-item{
-}
 .header__contacts_five .dropdown-item img{
     margin: 7px;
 }
@@ -182,6 +177,16 @@
     border-radius: 0 6px 6px 0;
     color: white;
 }
+.modal-menu-search{
+    width: 500%;
+    height: fit-content;
+    padding: 0 20px 20px;
+    font-size: 19px;
+}
+.modal-menu-search a{
+    text-decoration: none;
+    color: black;
+}
 .header__katalog_item{
     padding: 0 10px;
     height: 53px;
@@ -213,6 +218,11 @@
 }
 .carousel-item_content>img{
     width: 50%;
+}
+.modal-menu-button{
+    width: 150%;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
